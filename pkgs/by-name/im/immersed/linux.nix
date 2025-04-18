@@ -25,6 +25,8 @@ appimageTools.wrapAppImage {
 
   extraPkgs =
     pkgs: with pkgs; [
+      libva
+      intel-media-driver
       libgpg-error
       fontconfig
       libGL
